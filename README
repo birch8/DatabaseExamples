@@ -2,7 +2,7 @@
 SQL lesson01
 ############
 NOTE: This will only work on a MacBook, Codespaces on GitHub, Linux, FreeBSD. DO NOT attempt it on PowerShell. 
-It makes use of the redirect symbol "<" which is standard on the shells in MacBook, Linux, FreeBSD, but is yet to be implemeted on Windows PowerShell.
+It makes use of the redirect symbol "<" which is standard on the shells in MacBook, Linux, FreeBSD, but is yet to be implemented on Windows PowerShell.
 
 There are three scripts: import_data.py, CreateTable.sql and SelectAll.sql. The first script is in Python and allows you to import a txt file in comma delimited format (so CSV files). The second two scripts are SQL scripts. First one creates a table with the same or similar settings to the famous Volcanoe database. The second script allows you to see what is in the database.
 
@@ -25,8 +25,11 @@ STEPS
    Because this file was an export from MS Access, the script uses the option "utf-8-sig" as the first bytes of the file are the codec.
 5. Run selectAll.sql:
 	sqlite3 Volcanoes < selectAll.sql
+   Now you have a populated table in your database.
 
-Note that you can merge steps 1 and 2 and just run
+###################################################
+
+NOTE: that you can merge steps 1 and 2 and just run
 	sqlite3 Volcanoes.db < CreateTable.sql
+This is good to do when you first start.
 
-Now you have a populated table in your database.
