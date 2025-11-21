@@ -1,6 +1,7 @@
 
 SQL lesson
 ##########
+NOTE: This will only work on a MacBook, Codespaces on GitHub, Linux, FreeBSD. DO NOT attempt it on PowerShell. 
 1. Create an sqlite3 database:
 	touch Volcanoes.db 
    This will create a zero byte file. Nest you create the tables in the file.
