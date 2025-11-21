@@ -9,9 +9,16 @@ NOTE: This will only work on a MacBook, Codespaces on GitHub, Linux, FreeBSD. DO
 	sqlite3 Volcanoes.db < CreateTable.sql
    This will create the table(s) with the settings you specify. Next you add data.
 3. Check the export file and ensure it is comma delimited.
+	1,"Pelee","Violent","Martinique",0,"1932",
+	2,"Mauna Loa","Quiet","Hawaii",10,"1984",
+	3,"Tarawera","Violent","New Zealand",0,"1886",
 4. Run import_data.py:
 	python import_data.py
 5. Run selectAll.sql:
 	sqlite3 Volcanoes < selectAll.sql
 
 Now you have a populated table in your database.
+
+1,"Pelee","Violent","Martinique",0,"1932",
+2,"Mauna Loa","Quiet","Hawaii",10,"1984",
+3,"Tarawera","Violent","New Zealand",0,"1886",
