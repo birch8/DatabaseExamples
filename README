@@ -1,6 +1,11 @@
 
 SQL lesson01
 ############
+
+Objective: 
+##########
+Create and populate an sqlite3 database with data from the Access DB Volcanoes database.
+
 NOTE: This will only work on a MacBook, Codespaces on GitHub, Linux, FreeBSD. DO NOT attempt it on PowerShell. 
 It makes use of the redirect symbol "<" which is standard on the shells in MacBook, Linux, FreeBSD, but is yet to be implemented on Windows PowerShell.
 
