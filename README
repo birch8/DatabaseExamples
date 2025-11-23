@@ -29,15 +29,12 @@ STEPS
 	3,"Tarawera","Violent","New Zealand",0,"1886",
 5. Run import_data.py:
 	python import_data.py
-   Because this file was an export from MS Access, the script uses the option "utf-8-sig" as the first bytes of the file are the codec.
-<<<<<<< HEAD
 6. Run selectAll.sql:
 	sqlite3 Volcanoes < selectAll.sql
-=======
-5. Run SelectAll.sql:
+7. Run SelectAll.sql:
 	sqlite3 Volcanoes.db < SelectAll.sql
->>>>>>> 27898265d2500b7f2aef9118fa47c06f079fe210
-   Now you have a populated table in your database.
+
+Now you have a populated table in your database.
 
 ###################################################
 
