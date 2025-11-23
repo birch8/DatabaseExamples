@@ -31,8 +31,8 @@ Then do the following.
 4. Run import_data.py:
 	python import_data.py
    Because this file was an export from MS Access, the script uses the option "utf-8-sig" as the first bytes of the file are the codec.
-5. Run selectAll.sql:
-	sqlite3 Volcanoes < selectAll.sql
+5. Run SelectAll.sql:
+	sqlite3 Volcanoes.db < SelectAll.sql
    Now you have a populated table in your database.
 
 ###################################################
