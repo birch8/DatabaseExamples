@@ -52,3 +52,5 @@ Try these queries:
 4. SELECT name, type FROM volcanoes_tbl WHERE type = 'Violent';
 
 5. SELECT name, type FROM volcanoes_tbl WHERE type = 'Violent' AND last_erupted = 2018;
+
+6. SELECT name, type FROM volcanoes_tbl WHERE type = 'Quiet' AND location = 'New Zealand';
