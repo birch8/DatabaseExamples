@@ -1,8 +1,8 @@
--- Script to create a table. Change as you wish.
---create table category_tbl(
--- category_id INTEGER PRIMARY KEY,
--- category_name CHARFIELD(25)
---);
+-- Script to create table(s). Change as you wish.
+create table category_tbl(
+ category_id INTEGER PRIMARY KEY,
+ category_name CHARFIELD(25)
+);
 
 create table sweet_tbl(
  sweet_id INTEGER PRIMARY KEY,
